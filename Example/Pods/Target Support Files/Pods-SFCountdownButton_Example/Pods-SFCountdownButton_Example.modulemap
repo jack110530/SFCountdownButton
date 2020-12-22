@@ -1,0 +1,6 @@
+framework module Pods_SFCountdownButton_Example {
+  umbrella header "Pods-SFCountdownButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

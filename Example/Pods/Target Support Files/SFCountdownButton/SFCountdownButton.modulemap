@@ -1,0 +1,6 @@
+framework module SFCountdownButton {
+  umbrella header "SFCountdownButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SFCountdownButton (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SFCountdownButton (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  SFCountdownButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SFCountdownButton: 8992b09d1735a1d5cef88915cb204d6fd7317bd9
+
+PODFILE CHECKSUM: c7c3517e41509df611fffae90983eecd1843c8cb
+
+COCOAPODS: 1.9.3
