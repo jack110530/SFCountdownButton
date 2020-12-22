@@ -21,17 +21,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // 倒计时配置
     self.getCodeBtn.during = 10;
-    [self.getCodeBtn addTarget:self action:@selector(clickGetCodeBtnEvent:) forControlEvents:UIControlEventTouchUpInside];
+    self.getCodeBtn.disableUI = ^(SFCountdownButton * _Nonnull btn) {
+        [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        btn.backgroundColor = [UIColor grayColor];
+    };
     self.getCodeBtn.enableUI = ^(SFCountdownButton * _Nonnull btn) {
-        [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+        [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         btn.backgroundColor = [UIColor orangeColor];
     };
-    self.getCodeBtn.disableUI = ^(SFCountdownButton * _Nonnull btn) {
-        [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        btn.backgroundColor = [UIColor blackColor];
-    };
-    self.getCodeBtn.loadingColor = [UIColor blackColor];
+    self.getCodeBtn.loadingColor = [UIColor whiteColor];
+    [self.getCodeBtn addTarget:self action:@selector(clickGetCodeBtnEvent:) forControlEvents:UIControlEventTouchUpInside];
     
     self.phoneTextField.delegate = self;
     self.codeTextField.delegate = self;

@@ -25,19 +25,23 @@
 #pragma mark - init
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.isFirst = YES;
-        [self unready]; // 默认
+        [self defaultSetting];
     }
     return self;
 }
 - (instancetype)initWithCoder:(NSCoder *)coder {
     if (self = [super initWithCoder:coder]) {
-        self.isFirst = YES;
-        [self unready]; // 默认
+        [self defaultSetting];
     }
     return self;
 }
-
+/// 默认设置
+- (void)defaultSetting {
+    self.during = 60;
+    self.loadingColor = [UIColor whiteColor];
+    self.isFirst = YES;
+    [self unready];
+}
 - (void)layoutSubviews {
     self.indicator.center = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
     [super layoutSubviews];

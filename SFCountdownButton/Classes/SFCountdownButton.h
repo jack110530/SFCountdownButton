@@ -25,9 +25,9 @@ typedef NS_ENUM(NSUInteger, SFCountdownStatus) {
 /// 当前状态
 @property (nonatomic, assign, readonly) SFCountdownStatus status;
 
-/// 倒计时时间
+/// 倒计时时间，默认60s
 @property (nonatomic, assign) NSTimeInterval during;
-/// loading颜色
+/// loading颜色，默认whiteColor
 @property (nonatomic, strong) UIColor *loadingColor;
 /// 第一次获取的标题，默认：获取验证码
 @property (nonatomic, copy) NSString *firstTryTitle;
