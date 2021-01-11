@@ -8,6 +8,7 @@
 
 #import "SFViewController.h"
 #import <SFCountdownButton/SFCountdownButton.h>
+#import "SFCountdownButtonDemo.h"
 
 @interface SFViewController ()<UITextFieldDelegate>
 
@@ -70,6 +71,12 @@
     }else{
         NSLog(@"请输入正确的手机号");
     }
+}
+
+
+- (IBAction)pushEvent:(UIButton *)sender {
+    SFCountdownButtonDemo *vc = [[SFCountdownButtonDemo alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

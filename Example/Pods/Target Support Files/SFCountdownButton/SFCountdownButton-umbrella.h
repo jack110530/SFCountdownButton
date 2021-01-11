@@ -11,6 +11,7 @@
 #endif
 
 #import "SFCountdownButton.h"
+#import "SFProxy.h"
 
 FOUNDATION_EXPORT double SFCountdownButtonVersionNumber;
 FOUNDATION_EXPORT const unsigned char SFCountdownButtonVersionString[];

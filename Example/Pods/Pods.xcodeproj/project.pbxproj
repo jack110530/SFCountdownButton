@@ -8,55 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C5B5366AF3CE067D955EEA07CA5FDE3 /* SFCountdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDD62E74DF9EE3A95D9439326FA7DE3 /* SFCountdownButton.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		17DFE0D81369631AB378CC62BFCF1AE3 /* SFCountdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C09B9DA4546EAC4CD66A658A25BEC0A9 /* SFCountdownButton.m */; };
+		2672DB5DC4C4D48F14CADD8E74FB10EA /* SFProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7E94EFD4F4904ABEBC274F3BD1F0F /* SFProxy.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		3A817615C714C42EB4B986F3311FCA7B /* Pods-SFCountdownButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA68C21FCF11A6C1B79F3C567E69D8A /* Pods-SFCountdownButton_Tests-dummy.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4A78B6C8604C507D005031ACBD877D0E /* Pods-SFCountdownButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95102B534134FB0D260BF166D77B1040 /* Pods-SFCountdownButton_Example-dummy.m */; };
-		4A935931BB4A0D89FBAB6AC199F542AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		4B39804CB889F26C6B71587F06FFDD99 /* SFCountdownButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3E64A0B38E21FF8E0AF647E264B5C2 /* SFCountdownButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		7331B61973D0D9B9FD3ECA815ACB0095 /* SFCountdownButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7021B94BDEB28635CA8559CD655D4B58 /* SFCountdownButton-dummy.m */; };
 		769965C6595AC41C1C82D85563481DFE /* Pods-SFCountdownButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 934549F7AC4A977603A0484B08866E43 /* Pods-SFCountdownButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C0F0EE6C430E96B65E00A3420F32B52 /* SFCountdownButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C15D3610AD419C68A3395D07494B4D3 /* SFCountdownButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		851AF7DFCA0A5A01731262DDE915E913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		928B2885B450F7B613F2FACEF0A9F43E /* SFCountdownButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B90C5C51C83229826D78B6F42017235E /* SFCountdownButton-dummy.m */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		A0E59BEF020E5355BADBB3645BD00938 /* SFProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FA248075AE914EF5B593CA20962FE6E7 /* SFProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2903505D82A79ABBB5429D49ABDABE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9AF2BC09305363833E47B2A43A56E3E /* SFCountdownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 937101BEF3118B1440B6D44DE11CAF0E /* SFCountdownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		E901652A426A7EC4F159FFF14A8A4A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F4C347B7A7766442CE8B61611A784C1B /* SFCountdownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2246FAE7B7B22D145F697B1C75EE01 /* SFCountdownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF4030BFD448B7D5E904B9DC8F99B073 /* Pods-SFCountdownButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC324FE8F561A248AD01E4673E435FB /* Pods-SFCountdownButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		36CA3C8F2F26067250835079702B1090 /* PBXContainerItemProxy */ = {
+		81E09789B8023CF0B1FE206378C41DB6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FDCD1B8732BFA83DA89261BD68D1FA15;
 			remoteInfo = "Pods-SFCountdownButton_Example";
 		};
-		4F5656CAF2F66285AD8E70C569507445 /* PBXContainerItemProxy */ = {
+		DF2E39113B9F8A5DC6FF5C0569D9B511 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2A820B7295003BDF8760244EE3F8EFCB;
 			remoteInfo = SFCountdownButton;
 		};
-		AB0AEAB713BE1B8C86E146B9CACFD815 /* PBXContainerItemProxy */ = {
+		F566839E1F963780188FD363DFB702CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -67,49 +69,47 @@
 
 /* Begin PBXFileReference section */
 		02DD3295933F61AAB0DE72DEF7AA023D /* Pods-SFCountdownButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCountdownButton_Example-Info.plist"; sourceTree = "<group>"; };
-		067EA58AE0004C781E77835B2F6FBFD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		075062DFB2118135BFD6E5D174BC7FF7 /* SFCountdownButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFCountdownButton.debug.xcconfig; sourceTree = "<group>"; };
 		095FFF1029E9156D03C68CD77AAAEA7D /* Pods-SFCountdownButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCountdownButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0BA653D629DB37F985677CA6747122C7 /* Pods-SFCountdownButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SFCountdownButton_Example.modulemap"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		11F72E8D5C899030FF2540A7EBCC2B14 /* Pods-SFCountdownButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFCountdownButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DC324FE8F561A248AD01E4673E435FB /* Pods-SFCountdownButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFCountdownButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1E3E64A0B38E21FF8E0AF647E264B5C2 /* SFCountdownButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFCountdownButton-umbrella.h"; sourceTree = "<group>"; };
+		1FF7E94EFD4F4904ABEBC274F3BD1F0F /* SFProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SFProxy.m; path = SFCountdownButton/Classes/SFProxy.m; sourceTree = "<group>"; };
+		218778C4A7A77D27B80F74DC87F4BC7C /* SFCountdownButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SFCountdownButton.modulemap; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		261DBD4D0756C83BBB6C163CAED07CB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2662DD290B03B285B3BF6ECE26B20DC4 /* Pods-SFCountdownButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCountdownButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		26F55E39924D004B91AFC1B956928610 /* Pods-SFCountdownButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFCountdownButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		2C5E1B6CCA1DCDCE64B9FD3F7ED8B3FE /* SFCountdownButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFCountdownButton.release.xcconfig; sourceTree = "<group>"; };
 		2CE6F581A01C9EC0570FCD890A4AE586 /* Pods_SFCountdownButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFCountdownButton_Tests.framework; path = "Pods-SFCountdownButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D1FE552E330CA482AFD465C52BDA61F /* SFCountdownButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SFCountdownButton.modulemap; sourceTree = "<group>"; };
 		3D8D3BBCCAE1991F9F207A5DE86D33FA /* Pods-SFCountdownButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCountdownButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		4D971E2F5F9EC7C5FD367D4838F95DA4 /* SFCountdownButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SFCountdownButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5366B7C0A60843D2A73C3E1BEC1DCA73 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		57DE223EAF07D49BB6AB4483759C230F /* Pods-SFCountdownButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCountdownButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5C2246FAE7B7B22D145F697B1C75EE01 /* SFCountdownButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFCountdownButton.h; path = SFCountdownButton/Classes/SFCountdownButton.h; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5F23F107CF0B24104D2BB3A1F5BE626A /* Pods-SFCountdownButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCountdownButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		698CDFFE21220EEE1284F932B8D703D7 /* SFCountdownButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFCountdownButton.debug.xcconfig; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6C15D3610AD419C68A3395D07494B4D3 /* SFCountdownButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFCountdownButton-umbrella.h"; sourceTree = "<group>"; };
-		7021B94BDEB28635CA8559CD655D4B58 /* SFCountdownButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFCountdownButton-dummy.m"; sourceTree = "<group>"; };
+		6CF40C7A0F23BB5BF5EF1A72CFCB5F34 /* SFCountdownButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFCountdownButton-Info.plist"; sourceTree = "<group>"; };
+		6D64F1A9B05EACC802F74510605C42BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		72570B12BFEEFF7376559D6DE267E158 /* SFCountdownButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFCountdownButton-prefix.pch"; sourceTree = "<group>"; };
+		7BD42D19F1F55192B94E18C45E2758FE /* SFCountdownButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFCountdownButton.release.xcconfig; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		934549F7AC4A977603A0484B08866E43 /* Pods-SFCountdownButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFCountdownButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		937101BEF3118B1440B6D44DE11CAF0E /* SFCountdownButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFCountdownButton.h; path = SFCountdownButton/Classes/SFCountdownButton.h; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		95102B534134FB0D260BF166D77B1040 /* Pods-SFCountdownButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFCountdownButton_Example-dummy.m"; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		9764AB8DB7429D009201133D35F9BF5E /* SFCountdownButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFCountdownButton-Info.plist"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1FD5D352F235BE85E415950BA36ED34 /* Pods-SFCountdownButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SFCountdownButton_Tests.modulemap"; sourceTree = "<group>"; };
@@ -118,14 +118,18 @@
 		AC9190CB24B3D7D178AB0D74CFF06D5E /* Pods_SFCountdownButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFCountdownButton_Example.framework; path = "Pods-SFCountdownButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA68C21FCF11A6C1B79F3C567E69D8A /* Pods-SFCountdownButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFCountdownButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		AF82AD30C1C0888C473577820DA5E23A /* SFCountdownButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFCountdownButton-prefix.pch"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		C09B9DA4546EAC4CD66A658A25BEC0A9 /* SFCountdownButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SFCountdownButton.m; path = SFCountdownButton/Classes/SFCountdownButton.m; sourceTree = "<group>"; };
+		B7BB578ECDC55A2477712BB22105DA92 /* SFCountdownButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SFCountdownButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B90C5C51C83229826D78B6F42017235E /* SFCountdownButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFCountdownButton-dummy.m"; sourceTree = "<group>"; };
+		CBDD62E74DF9EE3A95D9439326FA7DE3 /* SFCountdownButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SFCountdownButton.m; path = SFCountdownButton/Classes/SFCountdownButton.m; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		E6AD220444617F8D528A4691BA2F7849 /* SFCountdownButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFCountdownButton.framework; path = SFCountdownButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70B4A4133CBC9784222809F6A0CD161 /* Pods-SFCountdownButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCountdownButton_Tests-Info.plist"; sourceTree = "<group>"; };
 		F77AC8228B17C6AECE044A06D83EA55C /* Pods-SFCountdownButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFCountdownButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA248075AE914EF5B593CA20962FE6E7 /* SFProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SFProxy.h; path = SFCountdownButton/Classes/SFProxy.h; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,32 +161,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E72DE22E09486190168C2902550BDFE3 /* Frameworks */ = {
+		ED003DEEC4F0B7B072D5B0ACBDDE4F00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A935931BB4A0D89FBAB6AC199F542AD /* Foundation.framework in Frameworks */,
+				A2903505D82A79ABBB5429D49ABDABE4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00C69F7B64C8B67023AE14D5FED7B182 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3D1FE552E330CA482AFD465C52BDA61F /* SFCountdownButton.modulemap */,
-				7021B94BDEB28635CA8559CD655D4B58 /* SFCountdownButton-dummy.m */,
-				9764AB8DB7429D009201133D35F9BF5E /* SFCountdownButton-Info.plist */,
-				72570B12BFEEFF7376559D6DE267E158 /* SFCountdownButton-prefix.pch */,
-				6C15D3610AD419C68A3395D07494B4D3 /* SFCountdownButton-umbrella.h */,
-				075062DFB2118135BFD6E5D174BC7FF7 /* SFCountdownButton.debug.xcconfig */,
-				2C5E1B6CCA1DCDCE64B9FD3F7ED8B3FE /* SFCountdownButton.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SFCountdownButton";
-			sourceTree = "<group>";
-		};
 		485B35865FA50C5F7B7BD1D13F39944D /* Pods-SFCountdownButton_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,12 +210,19 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		61EC231B9DC066D4808B760164A71A17 /* Development Pods */ = {
+		51779E9BA870E61DA7CE7D2EEA7D51E4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B127A9C95DFF24579F1CCEEE0C1485EE /* SFCountdownButton */,
+				218778C4A7A77D27B80F74DC87F4BC7C /* SFCountdownButton.modulemap */,
+				B90C5C51C83229826D78B6F42017235E /* SFCountdownButton-dummy.m */,
+				6CF40C7A0F23BB5BF5EF1A72CFCB5F34 /* SFCountdownButton-Info.plist */,
+				AF82AD30C1C0888C473577820DA5E23A /* SFCountdownButton-prefix.pch */,
+				1E3E64A0B38E21FF8E0AF647E264B5C2 /* SFCountdownButton-umbrella.h */,
+				698CDFFE21220EEE1284F932B8D703D7 /* SFCountdownButton.debug.xcconfig */,
+				7BD42D19F1F55192B94E18C45E2758FE /* SFCountdownButton.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SFCountdownButton";
 			sourceTree = "<group>";
 		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
@@ -238,6 +234,24 @@
 				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		8411B9C056BF385B266803B3D67BCF47 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D64F1A9B05EACC802F74510605C42BE /* LICENSE */,
+				261DBD4D0756C83BBB6C163CAED07CB3 /* README.md */,
+				B7BB578ECDC55A2477712BB22105DA92 /* SFCountdownButton.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		89F93C65F65BCFA9257CE789941963A7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE5FB14487941CC95C94A68A2BB96537 /* SFCountdownButton */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -274,18 +288,6 @@
 			path = "Target Support Files/Pods-SFCountdownButton_Example";
 			sourceTree = "<group>";
 		};
-		B127A9C95DFF24579F1CCEEE0C1485EE /* SFCountdownButton */ = {
-			isa = PBXGroup;
-			children = (
-				5C2246FAE7B7B22D145F697B1C75EE01 /* SFCountdownButton.h */,
-				C09B9DA4546EAC4CD66A658A25BEC0A9 /* SFCountdownButton.m */,
-				C3A89A44C80ED97DB80119063D39A218 /* Pod */,
-				00C69F7B64C8B67023AE14D5FED7B182 /* Support Files */,
-			);
-			name = SFCountdownButton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,6 +322,20 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
+		BE5FB14487941CC95C94A68A2BB96537 /* SFCountdownButton */ = {
+			isa = PBXGroup;
+			children = (
+				937101BEF3118B1440B6D44DE11CAF0E /* SFCountdownButton.h */,
+				CBDD62E74DF9EE3A95D9439326FA7DE3 /* SFCountdownButton.m */,
+				FA248075AE914EF5B593CA20962FE6E7 /* SFProxy.h */,
+				1FF7E94EFD4F4904ABEBC274F3BD1F0F /* SFProxy.m */,
+				8411B9C056BF385B266803B3D67BCF47 /* Pod */,
+				51779E9BA870E61DA7CE7D2EEA7D51E4 /* Support Files */,
+			);
+			name = SFCountdownButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C08CB2F994041697728420D317BB8A60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,21 +347,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C3A89A44C80ED97DB80119063D39A218 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5366B7C0A60843D2A73C3E1BEC1DCA73 /* LICENSE */,
-				067EA58AE0004C781E77835B2F6FBFD7 /* README.md */,
-				4D971E2F5F9EC7C5FD367D4838F95DA4 /* SFCountdownButton.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				61EC231B9DC066D4808B760164A71A17 /* Development Pods */,
+				89F93C65F65BCFA9257CE789941963A7 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				C08CB2F994041697728420D317BB8A60 /* Products */,
@@ -379,20 +385,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39716657ED5BAA521F8FC1FDF421F93C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C0F0EE6C430E96B65E00A3420F32B52 /* SFCountdownButton-umbrella.h in Headers */,
-				F4C347B7A7766442CE8B61611A784C1B /* SFCountdownButton.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE09B53DD903D16D542A4F7A98A3FA20 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				769965C6595AC41C1C82D85563481DFE /* Pods-SFCountdownButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95D45D59606E622E123DF100B23B31E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B39804CB889F26C6B71587F06FFDD99 /* SFCountdownButton-umbrella.h in Headers */,
+				C9AF2BC09305363833E47B2A43A56E3E /* SFCountdownButton.h in Headers */,
+				A0E59BEF020E5355BADBB3645BD00938 /* SFProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,12 +416,12 @@
 /* Begin PBXNativeTarget section */
 		2A820B7295003BDF8760244EE3F8EFCB /* SFCountdownButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 344A7743851CAAA42DB9C98CD3EB4F94 /* Build configuration list for PBXNativeTarget "SFCountdownButton" */;
+			buildConfigurationList = 97F54EF29036540145BBB57B97200541 /* Build configuration list for PBXNativeTarget "SFCountdownButton" */;
 			buildPhases = (
-				39716657ED5BAA521F8FC1FDF421F93C /* Headers */,
-				581453A443F24CEE7C3FFCFD6E82C3A7 /* Sources */,
-				E72DE22E09486190168C2902550BDFE3 /* Frameworks */,
-				E28BDE4D175A3FC15EA3351C7595042C /* Resources */,
+				C95D45D59606E622E123DF100B23B31E /* Headers */,
+				09B37FE72DC6AA2A1C52DC20C18E5BB1 /* Sources */,
+				ED003DEEC4F0B7B072D5B0ACBDDE4F00 /* Frameworks */,
+				450CB84BD44E37EF20B40A6AEE88EC23 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -455,8 +462,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				F3201CF8A74E92ABCFED3CBB694C085B /* PBXTargetDependency */,
-				6823E587903BB739DE3380FCF4076CC1 /* PBXTargetDependency */,
+				A8155551AA6FA88477A8B494C9F32A26 /* PBXTargetDependency */,
+				B8BEE60E4F25312AAC80348DBB3CF6BA /* PBXTargetDependency */,
 			);
 			name = "Pods-SFCountdownButton_Tests";
 			productName = "Pods-SFCountdownButton_Tests";
@@ -475,7 +482,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C636380518F926A9C473C0E3B61E8C0A /* PBXTargetDependency */,
+				870AA97BFAD1D2F0CBC46DB08CEB85B7 /* PBXTargetDependency */,
 			);
 			name = "Pods-SFCountdownButton_Example";
 			productName = "Pods-SFCountdownButton_Example";
@@ -520,6 +527,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		450CB84BD44E37EF20B40A6AEE88EC23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -534,30 +548,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E28BDE4D175A3FC15EA3351C7595042C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		09B37FE72DC6AA2A1C52DC20C18E5BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928B2885B450F7B613F2FACEF0A9F43E /* SFCountdownButton-dummy.m in Sources */,
+				0C5B5366AF3CE067D955EEA07CA5FDE3 /* SFCountdownButton.m in Sources */,
+				2672DB5DC4C4D48F14CADD8E74FB10EA /* SFProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4222994BB997375CF9101A7C11FC6345 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3A817615C714C42EB4B986F3311FCA7B /* Pods-SFCountdownButton_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		581453A443F24CEE7C3FFCFD6E82C3A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7331B61973D0D9B9FD3ECA815ACB0095 /* SFCountdownButton-dummy.m in Sources */,
-				17DFE0D81369631AB378CC62BFCF1AE3 /* SFCountdownButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,58 +596,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6823E587903BB739DE3380FCF4076CC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SFCountdownButton_Example";
-			target = FDCD1B8732BFA83DA89261BD68D1FA15 /* Pods-SFCountdownButton_Example */;
-			targetProxy = 36CA3C8F2F26067250835079702B1090 /* PBXContainerItemProxy */;
-		};
-		C636380518F926A9C473C0E3B61E8C0A /* PBXTargetDependency */ = {
+		870AA97BFAD1D2F0CBC46DB08CEB85B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SFCountdownButton;
 			target = 2A820B7295003BDF8760244EE3F8EFCB /* SFCountdownButton */;
-			targetProxy = 4F5656CAF2F66285AD8E70C569507445 /* PBXContainerItemProxy */;
+			targetProxy = DF2E39113B9F8A5DC6FF5C0569D9B511 /* PBXContainerItemProxy */;
 		};
-		F3201CF8A74E92ABCFED3CBB694C085B /* PBXTargetDependency */ = {
+		A8155551AA6FA88477A8B494C9F32A26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = AB0AEAB713BE1B8C86E146B9CACFD815 /* PBXContainerItemProxy */;
+			targetProxy = F566839E1F963780188FD363DFB702CF /* PBXContainerItemProxy */;
+		};
+		B8BEE60E4F25312AAC80348DBB3CF6BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SFCountdownButton_Example";
+			target = FDCD1B8732BFA83DA89261BD68D1FA15 /* Pods-SFCountdownButton_Example */;
+			targetProxy = 81E09789B8023CF0B1FE206378C41DB6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		330E412CC5CFF68FF3A792A716DA0176 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 075062DFB2118135BFD6E5D174BC7FF7 /* SFCountdownButton.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SFCountdownButton/SFCountdownButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SFCountdownButton/SFCountdownButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SFCountdownButton/SFCountdownButton.modulemap";
-				PRODUCT_MODULE_NAME = SFCountdownButton;
-				PRODUCT_NAME = SFCountdownButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
@@ -738,6 +715,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8E4FEFFCC3F9FC2F0A3707AF737757CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698CDFFE21220EEE1284F932B8D703D7 /* SFCountdownButton.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFCountdownButton/SFCountdownButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFCountdownButton/SFCountdownButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFCountdownButton/SFCountdownButton.modulemap";
+				PRODUCT_MODULE_NAME = SFCountdownButton;
+				PRODUCT_NAME = SFCountdownButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -863,6 +871,38 @@
 			};
 			name = Debug;
 		};
+		ABA2F1CCC3256E732A55FA9E5C77424B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD42D19F1F55192B94E18C45E2758FE /* SFCountdownButton.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFCountdownButton/SFCountdownButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFCountdownButton/SFCountdownButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFCountdownButton/SFCountdownButton.modulemap";
+				PRODUCT_MODULE_NAME = SFCountdownButton;
+				PRODUCT_NAME = SFCountdownButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BC893F796E0366A60FD3F5A9AE3BDFD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 095FFF1029E9156D03C68CD77AAAEA7D /* Pods-SFCountdownButton_Tests.debug.xcconfig */;
@@ -928,38 +968,6 @@
 			};
 			name = Release;
 		};
-		C73D606D5DBD5CAA40220BD3B8D278DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C5E1B6CCA1DCDCE64B9FD3F7ED8B3FE /* SFCountdownButton.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SFCountdownButton/SFCountdownButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SFCountdownButton/SFCountdownButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SFCountdownButton/SFCountdownButton.modulemap";
-				PRODUCT_MODULE_NAME = SFCountdownButton;
-				PRODUCT_NAME = SFCountdownButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F27C1AF9786DF38ACA8E4475CED0FCE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57DE223EAF07D49BB6AB4483759C230F /* Pods-SFCountdownButton_Example.debug.xcconfig */;
@@ -1005,15 +1013,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		344A7743851CAAA42DB9C98CD3EB4F94 /* Build configuration list for PBXNativeTarget "SFCountdownButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				330E412CC5CFF68FF3A792A716DA0176 /* Debug */,
-				C73D606D5DBD5CAA40220BD3B8D278DD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1028,6 +1027,15 @@
 			buildConfigurations = (
 				BC893F796E0366A60FD3F5A9AE3BDFD4 /* Debug */,
 				89C875B9BB475C3922D73BB7EE479856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F54EF29036540145BBB57B97200541 /* Build configuration list for PBXNativeTarget "SFCountdownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4FEFFCC3F9FC2F0A3707AF737757CE /* Debug */,
+				ABA2F1CCC3256E732A55FA9E5C77424B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
